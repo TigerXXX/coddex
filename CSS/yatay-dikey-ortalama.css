@@ -1,0 +1,22 @@
+.ortala {
+	/* ortalamak için yapımızın flex olması şart */
+	display: flex;
+	/* sabit genişlik ve yükseklik .s */
+	width: 300px;
+	height: 300px;
+
+	/* flex'i ortalayan kodlar */
+	justify-content: center;
+	align-items: center;
+}
+.ortala img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+/*
+	Örnek Kullanım
+	<div class="ortala">
+		<img src="image.jpg">
+	</div>
+ */
